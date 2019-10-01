@@ -1,0 +1,37 @@
+# busybox
+sys-apps/busybox -static
+
+# ca-cert
+app-misc/ca-certificates cacert
+
+# conf-update
+app-portage/conf-update colordiff
+
+# crypt
+app-crypt/gnupg tools
+sys-fs/cryptsetup -openssl
+
+# iputils
+net-misc/iputils -caps -filecaps
+sys-apps/coreutils -hostname
+sys-apps/net-tools hostname
+
+# mutt
+mail-client/neomutt gpgme pgp_classic sasl smime smime_classic
+
+# pigz
+app-arch/pigz symlink
+app-arch/pbzip2 symlink
+
+# python
+net-irc/weechat ruby guile python_single_target_python2_7 -python_single_target_python3_6 -python_single_target_python3_7
+
+# svn
+dev-vcs/subversion -dso
+
+# cryptsetup
+sys-fs/cryptsetup gcrypt
+
+# ipy py3-only move
+dev-python/ipyparallel -python_targets_python2_7
+dev-python/qtconsole -python_targets_python2_7

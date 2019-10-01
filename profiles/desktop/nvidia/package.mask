@@ -1,0 +1,2 @@
+# Blender Cycles does not support cuda 9
+>=dev-util/nvidia-cuda-toolkit-9.0.0

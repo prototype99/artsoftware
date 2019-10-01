@@ -1,0 +1,78 @@
+# blender
+media-gfx/blender collada
+
+# calibre
+dev-python/PyQt5 webkit
+dev-qt/qtwebkit printsupport
+
+# firefox
+www-client/firefox custom-cflags custom-optimization -gmp-autoupdate -startup-notification system-harfbuzz -wifi hwaccel -clang
+
+# gparted
+sys-block/gparted btrfs cryptsetup fat mdadm ntfs udf
+
+# gtk
+app-text/ghostscript-gpl -gtk
+dev-libs/libdbusmenu gtk3
+gnome-base/libgnomecanvas glade
+media-libs/gst-plugins-bad -gtk
+media-libs/libcanberra gtk3
+media-sound/pulseaudio gnome
+net-analyzer/wireshark -gtk
+net-misc/networkmanager-openvpn -gtk
+net-p2p/transmission -gtk
+virtual/notification-daemon -gnome
+x11-misc/redshift -gtk
+dev-python/matplotlib -gtk2 -wxwidgets
+net-misc/spice-gtk gtk3 usbredir
+
+# libreoffice
+app-office/libreoffice coinmp jemalloc pdfimport
+
+# mail
+mail-client/thunderbird lightning -jemalloc
+
+# nss
+dev-libs/xmlsec nss
+
+# opengl
+media-libs/libepoxy egl
+media-libs/mesa gles2 egl wayland
+dev-qt/qtgui:5 egl
+kde-frameworks/plasma egl
+kde-plasma/kinfocenter egl
+dev-qt/qtwayland egl
+media-libs/libepoxy egl
+
+# these packages do not support python 3.6 as single target
+media-libs/alsa-lib python_single_target_python2_7 -python_single_target_python3_6 -python_single_target_python3_7
+media-libs/lv2 python_single_target_python2_7 -python_single_target_python3_6 -python_single_target_python3_7
+
+# qt5
+app-crypt/pinentry -qt4
+dev-qt/qtmultimedia widgets
+dev-qt/qtwebkit -multimedia
+net-p2p/transmission -qt5
+dev-python/PyQt5 sql
+
+# rtlsdr
+net-wireless/gqrx -pulseaudio
+dev-python/PyQt4 compat
+
+# tpt
+games-simulation/the-powder-toy sse
+
+# No plasma-pa
+kde-plasma/plasma-desktop -pulseaudio
+kde-plasma/plasma-meta -pulseaudio
+
+# Gentoo bug #650258
+media-libs/mlt -ruby
+
+>=net-libs/zeromq-4.2.5 drafts
+
+# curl
+media-gfx/feh curl
+
+# ipython can't use matplotlib in py3-only mode, so we nuke its integration
+dev-python/ipython -matplotlib

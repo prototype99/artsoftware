@@ -1,0 +1,39 @@
+# vim: ft=gentoo-make-conf
+#################################################################################
+#	System features																#
+#################################################################################
+USE="
+anacron arping
+-bindist
+caps clang consolekit cpudetection cryptsetup cvs
+evdev
+fuse
+git gpg
+http2
+icu idn iproute2
+-ldap lua luajit lzma lzo
+mercurial
+nfs nfsv41 ntp
+offensive openssl
+pam pam_ssh pcap pch pcre16 pcre32 perl pkcs11 policykit python
+qalculate
+secure-delete smp split-usr sqlite ssh subversion suid sync-plugin-portage syslog -systemd system-icu system-sqlite
+threads -tinfo tracepath -traceroute tracepath
+udev unicode utempter utils uuid
+vim vim-pager vim-syntax
+"
+
+#################################################################################
+#	Software & Hardware specs and versions										#
+#################################################################################
+ACCEPT_KEYWORDS="~amd64"
+ACCEPT_LICENSE="* -@EULA"
+L10N="fr fr-FR en en-US"
+LINGUAS="fr fr-FR en en-US"
+PYTHON_TARGETS="python2_7 -python3_5 python3_6"
+PYTHON_SINGLE_TARGET="python3_6 -python3_5 -python2_7"
+
+#################################################################################
+#	Portage config																#
+#################################################################################
+FEATURES="binpkg-multi-instance buildpkg candy cgroup userfetch"

@@ -1,0 +1,11 @@
+# Not stable, redefines too much things, bad dev behaviour, etc
+sys-apps/systemd
+
+# Does not build
+=dev-util/gperf-3.1
+
+# Current kernel: LTS
+>=sys-kernel/gentoo-sources-5.0
+
+# Gentoo bug n° 649326
+=net-dns/idnkit-2.3

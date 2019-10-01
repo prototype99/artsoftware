@@ -1,0 +1,20 @@
+# VCS-built programs
+app-text/localtoot **
+games-simulation/the-powder-toy **
+
+# Things that need to stay stable
+app-shells/bash -~amd64
+dev-vcs/git -~amd64
+media-gfx/exiv2 -~amd64
+media-libs/fontconfig -~amd64
+sys-devel/binutils -~amd64
+sys-devel/gcc -~amd64
+sys-libs/glibc -~amd64
+sys-fs/eudev -~amd64
+sys-kernel/gentoo-sources -~amd64
+sys-libs/binutils-libs -~amd64
+sys-libs/ncurses -~amd64
+sys-libs/readline -~amd64
+
+# Need unstable bugged fontconfig that breaks emojis
+x11-libs/pango -~amd64

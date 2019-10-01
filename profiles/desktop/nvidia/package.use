@@ -1,0 +1,11 @@
+# nvidia
+sci-libs/flann -cuda
+
+# opengl
+media-libs/mesa gles2 egl wayland
+x11-drivers/nvidia-drivers tools uvm
+
+# Blender Cuda support
+media-gfx/blender cuda opencv openimageio openvdb openvdb-compression
+media-libs/opencv -cuda
+media-libs/openimageio opencv

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		A rotating maze game, written in C with xlib
+	</longdescription>
+	<maintainer type="person">
+		<email>adrien.sohier@art-software.fr</email>
+		<name>Adrien Sohier</name>
+	</maintainer>
+	<upstream>
+		<maintainer status="active">
+			<name>Patrick M</name>
+		</maintainer>
+	</upstream>
+</pkgmetadata>

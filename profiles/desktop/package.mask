@@ -1,0 +1,17 @@
+# No GTK3, please
+x11-libs/wxGTK:3.0-gtk3
+
+# Post 2017 profile migration fails
+=media-libs/libpano13-2.9.19
+
+# Crashes at runtime
+=x11-misc/zim-0.66
+
+# New layout, broke wiki tree
+>=x11-misc/zim-0.70_rc1
+
+# Mastodon is not updated for this yet
+>=dev-libs/protobuf-3.6.0
+
+# Compat problems with mono
+>=media-libs/giflib-5.1.9

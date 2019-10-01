@@ -1,0 +1,30 @@
+# vim: ft=gentoo-make-conf
+#################################################################################
+#	System features																#
+#################################################################################
+USE="
+alsa amr ap
+berkdb
+bittorrent
+cairo celt cgroups
+dbus dhcp dlz -dso
+fontconfig
+gnuplot -gpm -gstreamer -gtk
+jpeg jpeg2k json
+libass libsoxr libv4l
+mp3
+-networkmanager
+ogg openal openh264 opus otr
+pm-utils png portaudio
+savedconfig sndfile
+theora tiff truetype twitter twolame
+v4l vorbis vpx
+webp
+x264 x265 xml -xscreensaver xvid
+-zeroconf
+"
+
+#################################################################################
+#	Software & Hardware specs and versions										#
+#################################################################################
+RUBY_TARGETS="-ruby23 ruby25 ruby26"

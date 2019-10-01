@@ -1,0 +1,5 @@
+amd64 desktop dev
+amd64 desktop/nvidia dev
+amd64 desktop/intel dev
+amd64 laptop dev
+amd64 server/internal dev

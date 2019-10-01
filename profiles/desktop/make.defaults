@@ -1,0 +1,37 @@
+# vim: ft=gentoo-make-conf
+#################################################################################
+#	System features																#
+#################################################################################
+USE="
+alsa amr amrenc ao autoipd
+bazaar bittorrent -bluetooth
+cdio celt cups custom-modes cycles
+dbus designer dia dri3 drm dssi dvb
+ebook epub -egl
+faac fdk ffmpeg fftw flac fluidsynth fontconfig
+gegl -gles2 gnome-keyring gnuplot gphoto2 graphviz grc gsm gstreamer gtk gtk2 -gtk3
+id3tag imagemagick imlib innodb-lz4 innodb-lzo introspection
+jack jpeg2k
+kde kdenlive
+ladspa lame lapack lastfm -ldap legacy-systray libass libinput libkms libmpv libsamplerate libsoxr libv4l llvm
+-marble math matplotlib matroska mdnsresponder-compat melt messages midi minizip mod modplug moodbar mtp multilib multimedia
+networking networkmanager ntfs ntox
+openal openexr openimageio openvdb opus osc overlays
+phonon plotutils portaudio portmidi postproc postscript pulseaudio
+qml qt5
+rtlsdr rubberband ruby
+s3tc savedconfig sbsms session sndfile soxr system-cairo system-jpeg system-libevent system-libvpx
+taglib tcl tex4ht theora tint2conf tk twolame
+v4l vaapi -vlc vpx
+-wayland webchannel -webengine webp webserver websockets wifi windowmode
+X x265 xa xcb xcomposite xetex xinerama xmp xpm xvmc
+zenmap zeroconf
+"
+
+#################################################################################
+#	Software & Hardware specs and versions										#
+################################################################################
+RUBY_TARGETS="ruby25 ruby26"
+INSTALL_MASK="/usr/share/fonts/noto
+/usr/share/fonts/dejavu"
+ACCEPT_LICENSE="* FraunhoferFDK -@EULA"
