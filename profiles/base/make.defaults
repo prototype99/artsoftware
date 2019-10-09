@@ -11,7 +11,7 @@ fuse
 git gpg
 http2
 icu idn iproute2
--ldap lua luajit lzma lzo
+-ldap lm-sensors lua luajit lzma lzo
 mercurial
 nfs nfsv41 ntp
 offensive openssl
