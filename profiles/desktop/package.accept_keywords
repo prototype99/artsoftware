@@ -20,4 +20,4 @@ kde-apps/kdenlive -~amd64
 dev-scheme/guile -~amd64
 
 # virt manager
-=app-emulation/qt-virt-manager **
+=app-emulation/qt-virt-manager-9999 **
