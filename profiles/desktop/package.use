@@ -79,3 +79,4 @@ dev-python/ipython -matplotlib
 
 # virt
 app-emulation/libvirt virt-network libssh
+net-dns/dnsmasq script
