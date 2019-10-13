@@ -4,6 +4,3 @@
 # Pangoterm
 =dev-libs/libvterm-9999
 =x11-terms/pangoterm-9999
-
-# virt
-=app-emulation/qt-virt-manager-9999

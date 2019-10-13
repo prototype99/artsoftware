@@ -18,6 +18,3 @@ kde-apps/kdenlive -~amd64
 
 # Lilypond does not work with unstable versions
 dev-scheme/guile -~amd64
-
-# virt manager
-=app-emulation/qt-virt-manager-9999 **
