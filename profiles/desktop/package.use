@@ -76,3 +76,6 @@ media-gfx/feh curl
 
 # ipython can't use matplotlib in py3-only mode, so we nuke its integration
 dev-python/ipython -matplotlib
+
+# virt
+app-emulation/libvirt virt-network libssh
