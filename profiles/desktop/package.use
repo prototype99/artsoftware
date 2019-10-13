@@ -80,3 +80,4 @@ dev-python/ipython -matplotlib
 # virt
 app-emulation/libvirt virt-network libssh
 net-dns/dnsmasq script
+app-emulation/qemu spice usbredir virtfs numa
