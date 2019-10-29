@@ -15,3 +15,6 @@ x11-libs/wxGTK:3.0-gtk3
 
 # Compat problems with mono
 >=media-libs/giflib-5.1.9
+
+# Way too big to build
+dev-qt/qtwebengine

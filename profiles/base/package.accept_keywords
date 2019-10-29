@@ -18,3 +18,6 @@ sys-libs/readline -~amd64
 
 # Need unstable bugged fontconfig that breaks emojis
 x11-libs/pango -~amd64
+
+# Works better
+app-admin/stow -~amd64
