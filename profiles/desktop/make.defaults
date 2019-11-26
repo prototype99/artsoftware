@@ -19,7 +19,7 @@ networking networkmanager ntfs ntox
 openal openexr openimageio openvdb opus osc overlays
 phonon plotutils portaudio portmidi postproc postscript pulseaudio
 qml qt5
-rtlsdr rubberband ruby
+raw rtlsdr rubberband ruby
 s3tc savedconfig sbsms session sndfile soxr system-cairo system-jpeg system-libevent system-libvpx
 taglib tcl tex4ht theora tint2conf tk twolame
 v4l vaapi -vlc vpx
