@@ -1,17 +1,49 @@
-diff -u  a/pangoterm.c b/pangoterm.c
---- a/pangoterm.c	2019-12-10 17:59:57.603718000 +0100
-+++ b/pangoterm.c	2019-12-10 17:55:15.398898970 +0100
-@@ -1284,11 +1284,11 @@
+--- a/pangoterm.c	2019-12-10 18:51:18.169990000 +0100
++++ b/pangoterm.c	2019-12-10 18:51:02.313924200 +0100
+@@ -1,6 +1,7 @@
+ #include "pangoterm.h"
+ 
+ #include <string.h>  // memmove
++#include <stdlib.h>
+ #include <wctype.h>
+ 
+ #include <cairo/cairo.h>
+@@ -1266,6 +1267,7 @@
+ static int term_settermprop(VTermProp prop, VTermValue *val, void *user_data)
+ {
+   PangoTerm *pt = user_data;
++  char * title = NULL;
+ 
+   switch(prop) {
+   case VTERM_PROP_CURSORVISIBLE:
+@@ -1284,11 +1286,19 @@
      break;
  
    case VTERM_PROP_ICONNAME:
 -    gdk_window_set_icon_name(GDK_WINDOW(gtk_widget_get_window(pt->termwin)), val->string);
-+    gdk_window_set_icon_name(GDK_WINDOW(gtk_widget_get_window(pt->termwin)), val->string.str);
++	title = (char *) malloc(val->string.len+1);
++	strncpy(title, val->string.str, val->string.len);
++	title[val->string.len] = 0;
++
++    gdk_window_set_icon_name(GDK_WINDOW(gtk_widget_get_window(pt->termwin)), title);
      break;
  
    case VTERM_PROP_TITLE:
 -    gtk_window_set_title(GTK_WINDOW(pt->termwin), val->string);
-+    gtk_window_set_title(GTK_WINDOW(pt->termwin), val->string.str);
++	title = (char *) malloc(val->string.len+1);
++	strncpy(title, val->string.str, val->string.len);
++	title[val->string.len] = 0;
++
++    gtk_window_set_title(GTK_WINDOW(pt->termwin), title);
      break;
  
    case VTERM_PROP_ALTSCREEN:
+@@ -1303,6 +1313,8 @@
+     return 0;
+   }
+ 
++  free(title);
++
+   return 1;
+ }
+ 
