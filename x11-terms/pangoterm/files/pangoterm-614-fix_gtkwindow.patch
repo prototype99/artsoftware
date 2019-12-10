@@ -1,0 +1,17 @@
+diff -u  a/pangoterm.c b/pangoterm.c
+--- a/pangoterm.c	2019-12-10 17:59:57.603718000 +0100
++++ b/pangoterm.c	2019-12-10 17:55:15.398898970 +0100
+@@ -1284,11 +1284,11 @@
+     break;
+ 
+   case VTERM_PROP_ICONNAME:
+-    gdk_window_set_icon_name(GDK_WINDOW(gtk_widget_get_window(pt->termwin)), val->string);
++    gdk_window_set_icon_name(GDK_WINDOW(gtk_widget_get_window(pt->termwin)), val->string.str);
+     break;
+ 
+   case VTERM_PROP_TITLE:
+-    gtk_window_set_title(GTK_WINDOW(pt->termwin), val->string);
++    gtk_window_set_title(GTK_WINDOW(pt->termwin), val->string.str);
+     break;
+ 
+   case VTERM_PROP_ALTSCREEN:
