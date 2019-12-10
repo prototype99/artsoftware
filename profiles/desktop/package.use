@@ -5,9 +5,6 @@ media-gfx/blender collada
 dev-python/PyQt5 webkit
 dev-qt/qtwebkit printsupport
 
-# firefox
-www-client/firefox custom-cflags custom-optimization -gmp-autoupdate -startup-notification system-harfbuzz -wifi hwaccel -clang
-
 # gparted
 sys-block/gparted btrfs cryptsetup fat mdadm ntfs udf
 
@@ -32,9 +29,6 @@ app-office/libreoffice coinmp jemalloc pdfimport
 # mail
 mail-client/thunderbird lightning -jemalloc
 
-# nss
-dev-libs/xmlsec nss
-
 # opengl
 media-libs/libepoxy egl
 media-libs/mesa gles2 egl wayland
@@ -44,9 +38,20 @@ kde-plasma/kinfocenter egl
 dev-qt/qtwayland egl
 media-libs/libepoxy egl
 
-# these packages do not support python 3.6 as single target
+# lack of python3 support
+app-office/dia python_single_target_python2_7
+app-text/calibre python_single_target_python2_7
+dev-libs/libnatspec python_single_target_python2_7
+dev-util/boost-build python_single_target_python2_7
+dev-util/perf python_single_target_python2_7
+media-gfx/gimp python_single_target_python2_7
 media-libs/alsa-lib python_single_target_python2_7 -python_single_target_python3_6 -python_single_target_python3_7
 media-libs/lv2 python_single_target_python2_7 -python_single_target_python3_6 -python_single_target_python3_7
+media-sound/lilypond python_single_target_python2_7
+net-analyzer/nmap python_single_target_python2_7
+net-wireless/gnuradio python_single_target_python2_7
+net-wireless/gr-osmosdr python_single_target_python2_7
+x11-misc/zim python_single_target_python2_7
 
 # qt5
 app-crypt/pinentry -qt4
