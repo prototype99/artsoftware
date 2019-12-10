@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-DEPEND=">=dev-libs/libvterm-9999"
+DEPEND=">=dev-libs/libvterm-761"
 RDEPEND="${DEPEND}
 	dev-libs/glib:2
 	x11-libs/cairo
