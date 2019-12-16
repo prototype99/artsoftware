@@ -16,7 +16,7 @@ kde kdenlive
 ladspa lame lapack lastfm -ldap legacy-systray libass libinput libkms libmpv libsamplerate libsoxr libv4l llvm
 -marble math matplotlib matroska mdnsresponder-compat melt messages midi minizip mod modplug moodbar mtp multilib multimedia
 networking networkmanager ntfs ntox
-openal openexr openimageio openvdb opus osc overlays
+openal openexr openimageio opus osc overlays
 phonon plotutils portaudio portmidi postproc postscript pulseaudio
 qml qt5
 raw rtlsdr rubberband ruby
