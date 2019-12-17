@@ -18,3 +18,6 @@ x11-libs/wxGTK:3.0-gtk3
 
 # Way too big to build
 dev-qt/qtwebengine
+
+# Lilypond does not work with it
+>=dev-scheme/guile-2.2.0
