@@ -8,7 +8,7 @@ anacron arping
 caps clang consolekit cpudetection cryptsetup cvs
 evdev
 fuse
-git gpg
+git gpg graphite
 http2
 icu idn iproute2
 -ldap lm-sensors lua luajit lzma lzo
