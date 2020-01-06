@@ -31,7 +31,7 @@ zenmap zeroconf
 #################################################################################
 #	Software & Hardware specs and versions										#
 ################################################################################
-RUBY_TARGETS="ruby25 ruby26"
+RUBY_TARGETS="ruby26 ruby27"
 INSTALL_MASK="/usr/share/fonts/noto
 /usr/share/fonts/dejavu"
 ACCEPT_LICENSE="* FraunhoferFDK -@EULA"
