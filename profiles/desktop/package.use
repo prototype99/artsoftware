@@ -63,9 +63,6 @@ dev-python/PyQt5 sql
 net-wireless/gqrx -pulseaudio
 dev-python/PyQt4 compat
 
-# tpt
-games-simulation/the-powder-toy sse
-
 # No plasma-pa
 kde-plasma/plasma-desktop -pulseaudio
 kde-plasma/plasma-meta -pulseaudio

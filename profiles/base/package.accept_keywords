@@ -1,6 +1,5 @@
 # VCS-built programs
 app-text/localtoot **
-games-simulation/the-powder-toy **
 
 # Things that need to stay stable
 app-shells/bash -~amd64
