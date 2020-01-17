@@ -35,3 +35,5 @@ sys-fs/cryptsetup gcrypt
 # ipy py3-only move
 dev-python/ipyparallel -python_targets_python2_7
 dev-python/qtconsole -python_targets_python2_7
+
+>=net-libs/zeromq-4.2.5 drafts

@@ -70,8 +70,6 @@ kde-plasma/plasma-meta -pulseaudio
 # Gentoo bug #650258
 media-libs/mlt -ruby
 
->=net-libs/zeromq-4.2.5 drafts
-
 # curl
 media-gfx/feh curl
 
