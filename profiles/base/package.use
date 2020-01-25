@@ -9,7 +9,7 @@ app-portage/conf-update colordiff
 
 # crypt
 app-crypt/gnupg tools
-sys-fs/cryptsetup -openssl
+sys-fs/cryptsetup -openssl gcrypt
 
 # iputils
 net-misc/iputils -caps -filecaps
@@ -28,9 +28,6 @@ net-irc/weechat ruby guile python_single_target_python2_7 -python_single_target_
 
 # svn
 dev-vcs/subversion -dso
-
-# cryptsetup
-sys-fs/cryptsetup gcrypt
 
 # ipy py3-only move
 dev-python/ipyparallel -python_targets_python2_7

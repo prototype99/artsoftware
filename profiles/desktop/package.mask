@@ -1,9 +1,6 @@
 # No GTK3, please
 x11-libs/wxGTK:3.0-gtk3
 
-# Post 2017 profile migration fails
-=media-libs/libpano13-2.9.19
-
 # Crashes at runtime
 =x11-misc/zim-0.66
 

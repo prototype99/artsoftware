@@ -3,6 +3,3 @@ sys-apps/systemd
 
 # Current kernel: LTS
 >=sys-kernel/gentoo-sources-5.0
-
-# Gentoo bug n° 649326
-=net-dns/idnkit-2.3

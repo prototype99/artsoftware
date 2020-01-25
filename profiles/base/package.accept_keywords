@@ -1,6 +1,3 @@
-# VCS-built programs
-app-text/localtoot **
-
 # Things that need to stay stable
 app-shells/bash -~amd64
 dev-vcs/git -~amd64

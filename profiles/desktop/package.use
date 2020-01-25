@@ -10,8 +10,6 @@ sys-block/gparted btrfs cryptsetup fat mdadm ntfs udf
 
 # gtk
 app-text/ghostscript-gpl -gtk
-dev-libs/libdbusmenu gtk3
-gnome-base/libgnomecanvas glade
 media-libs/gst-plugins-bad -gtk
 media-libs/libcanberra gtk3
 media-sound/pulseaudio gnome
@@ -26,9 +24,6 @@ net-misc/spice-gtk gtk3 usbredir
 # libreoffice
 app-office/libreoffice coinmp jemalloc pdfimport
 
-# mail
-mail-client/thunderbird lightning -jemalloc
-
 # opengl
 media-libs/libepoxy egl
 media-libs/mesa gles2 egl wayland
@@ -36,7 +31,6 @@ dev-qt/qtgui:5 egl
 kde-frameworks/plasma egl
 kde-plasma/kinfocenter egl
 dev-qt/qtwayland egl
-media-libs/libepoxy egl
 
 # lack of python3 support
 app-office/dia python_single_target_python2_7
@@ -61,7 +55,6 @@ dev-python/PyQt5 sql
 
 # rtlsdr
 net-wireless/gqrx -pulseaudio
-dev-python/PyQt4 compat
 
 # No plasma-pa
 kde-plasma/plasma-desktop -pulseaudio
