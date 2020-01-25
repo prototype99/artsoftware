@@ -1,13 +1,9 @@
 # Things that need to stay stable
 app-admin/conky -~amd64
 dev-util/android-tools -~amd64
-media-libs/mlt  -~amd64
 media-sound/clementine -~amd64
 x11-base/xorg-server -~amd64
 x11-themes/qtcurve -~amd64
-
-# Need unstable melt
-kde-apps/kdenlive -~amd64
 
 # Fails with obs-studio 24.0.5
 net-libs/mbedtls -~amd64
