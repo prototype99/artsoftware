@@ -73,3 +73,6 @@ dev-python/ipython -matplotlib
 app-emulation/libvirt virt-network libssh
 net-dns/dnsmasq script
 app-emulation/qemu spice usbredir virtfs numa
+
+# gpg / pgp
+mail-client/neomutt pgp-classic
