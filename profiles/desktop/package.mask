@@ -1,6 +1,3 @@
-# No GTK3, please
-x11-libs/wxGTK:3.0-gtk3
-
 # Crashes at runtime
 =x11-misc/zim-0.66
 
@@ -12,9 +9,6 @@ x11-libs/wxGTK:3.0-gtk3
 
 # Compat problems with mono
 >=media-libs/giflib-5.1.9
-
-# Way too big to build
-dev-qt/qtwebengine
 
 # Lilypond does not work with it
 >=dev-scheme/guile-2.2.0

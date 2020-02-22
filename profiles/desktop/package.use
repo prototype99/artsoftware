@@ -1,10 +1,6 @@
 # blender
 media-gfx/blender collada python_single_target_python3_7
 
-# calibre
-dev-python/PyQt5 webkit
-dev-qt/qtwebkit printsupport
-
 # gparted
 sys-block/gparted btrfs cryptsetup fat mdadm ntfs udf
 
@@ -34,7 +30,6 @@ dev-qt/qtwayland egl
 
 # lack of python3 support
 app-office/dia python_single_target_python2_7
-app-text/calibre python_single_target_python2_7
 dev-libs/libnatspec python_single_target_python2_7
 dev-util/boost-build python_single_target_python2_7
 dev-util/perf python_single_target_python2_7
@@ -49,7 +44,6 @@ x11-misc/zim python_single_target_python2_7
 # qt5
 app-crypt/pinentry -qt4
 dev-qt/qtmultimedia widgets
-dev-qt/qtwebkit -multimedia
 net-p2p/transmission -qt5
 dev-python/PyQt5 sql
 
