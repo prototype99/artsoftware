@@ -17,4 +17,4 @@
 >=media-gfx/imagemagick-7.0.0
 
 # wxGTK3 still does not work well… Sight
-x11-libs/wxGTK:3.0-gtk3
+# x11-libs/wxGTK:3.0-gtk3
