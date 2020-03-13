@@ -17,3 +17,10 @@ x11-libs/pango -~amd64
 
 # Works better
 app-admin/stow -~amd64
+
+# perf-related
+sys-devel/llvm -~amd64
+sys-devel/llvm-common -~amd64
+sys-devel/clang -~amd64
+sys-devel/clang-common -~amd64
+sys-devel/clang-runtime -~amd64

@@ -1,5 +1,5 @@
 # blender
-media-gfx/blender collada python_single_target_python3_7
+media-gfx/blender collada python_single_target_python3_8
 
 # gparted
 sys-block/gparted btrfs cryptsetup fat mdadm ntfs udf
@@ -16,6 +16,9 @@ virtual/notification-daemon -gnome
 x11-misc/redshift -gtk
 dev-python/matplotlib -gtk2 -wxwidgets
 net-misc/spice-gtk gtk3 usbredir
+
+# Gentoo bug n°710718
+<dev-util/perf-5.5 -gtk
 
 # libreoffice
 app-office/libreoffice coinmp jemalloc pdfimport
@@ -34,7 +37,7 @@ dev-libs/libnatspec python_single_target_python2_7
 dev-util/boost-build python_single_target_python2_7
 dev-util/perf python_single_target_python2_7
 media-gfx/gimp python_single_target_python2_7
-media-libs/alsa-lib python_single_target_python2_7 -python_single_target_python3_6 -python_single_target_python3_7
+media-libs/alsa-lib python_single_target_python2_7 -python_single_target_python3_6 -python_single_target_python3_8
 media-sound/lilypond python_single_target_python2_7
 net-analyzer/nmap python_single_target_python2_7
 net-wireless/gnuradio python_single_target_python2_7
