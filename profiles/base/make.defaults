@@ -28,8 +28,8 @@ vim vim-pager vim-syntax
 #################################################################################
 ACCEPT_KEYWORDS="~amd64"
 ACCEPT_LICENSE="* -@EULA"
-L10N="fr fr-FR en en-US"
-LINGUAS="fr fr-FR en en-US"
+L10N="fr fr-FR en en-GB en-US"
+LINGUAS="fr fr-FR en en-GB en-US"
 PYTHON_TARGETS="python2_7 python3_6 python3_8"
 PYTHON_SINGLE_TARGET="python3_6 -python2_7"
 RUBY_TARGETS="ruby26 ruby27"
