@@ -1,0 +1,4 @@
+dev-db/mariadb jemalloc 
+dev-lang/php bcmath cgi curl exif ffi fpm gd gmp imap inifile intl mhash mysql mysqli pdo session-mm sharedmem snmp sockets tidy xmlreader xslt zip
+mail-mta/postfix dovecot-sasl lmdb mysql sasl
+net-mail/dovecot lz4 managesieve mysql sieve
