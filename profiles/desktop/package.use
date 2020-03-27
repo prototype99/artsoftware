@@ -75,4 +75,4 @@ app-emulation/qemu spice usbredir virtfs numa
 mail-client/neomutt pgp-classic
 
 # Firefox
-www-client/firefox eme-free hwaccel
+www-client/firefox -clang eme-free hwaccel

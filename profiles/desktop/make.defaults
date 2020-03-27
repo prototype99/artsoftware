@@ -14,7 +14,7 @@ id3tag imagemagick imlib innodb-lz4 innodb-lzo introspection
 jack jpeg2k
 kde kdenlive
 ladspa lame lapack lastfm -ldap legacy-systray libass libinput libkms libmpv libsamplerate libsoxr libv4l llvm
-markdown -marble math matplotlib matroska mdnsresponder-compat melt messages midi minizip mod modplug moodbar mtp multilib multimedia
+markdown -marble math matplotlib matroska mdnsresponder-compat melt messages midi minizip mod -modemmanager modplug moodbar mtp multilib multimedia
 networking networkmanager ntfs ntox
 openal openexr openimageio opus osc overlays
 phonon plotutils portaudio portmidi postproc postscript pulseaudio
