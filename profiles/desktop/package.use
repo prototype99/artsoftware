@@ -76,3 +76,6 @@ mail-client/neomutt pgp-classic
 
 # Firefox
 www-client/firefox -clang eme-free hwaccel
+
+# chromium
+net-libs/nodejs inspector
