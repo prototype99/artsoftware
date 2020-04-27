@@ -79,3 +79,5 @@ www-client/firefox -clang eme-free hwaccel
 
 # chromium
 net-libs/nodejs inspector
+
+net-misc/networkmanager -elogind

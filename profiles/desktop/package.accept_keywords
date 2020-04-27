@@ -3,9 +3,13 @@ dev-util/android-tools -~amd64
 media-sound/clementine -~amd64
 x11-base/xorg-server -~amd64
 x11-themes/qtcurve -~amd64
+dev-util/glib-utils -~amd64
+dev-libs/glib -~amd64
+net-libs/glib-networking -~amd64
 
 # Fails with obs-studio 24.0.5
 net-libs/mbedtls -~amd64
 
 # Lilypond does not work with unstable versions
 dev-scheme/guile -~amd64
+
