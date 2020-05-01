@@ -6,7 +6,7 @@
 		<description>Art-Software local repo</description>
 		<homepage>http://git.art-software.fr/ArtSoftware/portageLocalRepo.git</homepage>
 		<owner type="project">
-			<email>adrien.sohier@art-software.fr</email>
+			<email>electron@art-software.fr</email>
 			<name>[Electron]</name>
 		</owner>
 		<source type="git">http://git.art-software.fr/ArtSoftware/portageLocalRepo.git</source>
