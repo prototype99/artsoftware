@@ -13,7 +13,7 @@ not relevant for general metadata.xml files.
 -->
 <pkgmetadata>
 <maintainer type="person">
-	<email>adrien.sohier@art-software.fr</email>
+	<email>electron@art-software.fr</email>
 	<description>Primary maintainer</description>
 </maintainer>
 <longdescription>A simple terminal using Pango and written in C++</longdescription>
