@@ -36,8 +36,10 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}
 RDEPEND="${PYTHON_DEPS}
 	>=dev-libs/boost-1.62:=[nls?,threads(+)]
 	dev-libs/lzo:2
-	>=dev-python/numpy-1.10.1[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep '
+		>=dev-python/numpy-1.10.1[${PYTHON_MULTI_USEDEP}]
+		dev-python/requests[${PYTHON_MULTI_USEDEP}]
+	')
 	media-libs/freetype
 	media-libs/glew:*
 	media-libs/libpng:0=
@@ -75,9 +77,9 @@ RDEPEND="${PYTHON_DEPS}
 		>=media-libs/openexr-2.2.0:=
 	)
 	opensubdiv? ( >=media-libs/opensubdiv-3.3.0:=[cuda=,opencl=] )
+	dev-cpp/tbb
 	openvdb? (
-		media-gfx/openvdb[${PYTHON_USEDEP},-abi3-compat(-),abi4-compat(+)]
-		dev-cpp/tbb
+		media-gfx/openvdb[${PYTHON_SINGLE_USEDEP},-abi3-compat(-),abi4-compat(+)]
 		>=dev-libs/c-blosc-1.5.2
 	)
 	osl? ( media-libs/osl:= )

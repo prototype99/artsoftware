@@ -78,9 +78,9 @@ RDEPEND="${PYTHON_DEPS}
 		>=media-libs/openexr-2.2.0:=
 	)
 	opensubdiv? ( >=media-libs/opensubdiv-3.3.0:=[cuda=,opencl=] )
+	dev-cpp/tbb
 	openvdb? (
 		media-gfx/openvdb[${PYTHON_SINGLE_USEDEP},-abi3-compat(-),abi4-compat(+)]
-		dev-cpp/tbb
 		>=dev-libs/c-blosc-1.5.2
 	)
 	osl? ( media-libs/osl:= )
