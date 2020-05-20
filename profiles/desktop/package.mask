@@ -10,8 +10,5 @@
 # Compat problems with mono
 >=media-libs/giflib-5.1.9
 
-# Lilypond does not work with it
->=dev-scheme/guile-2.2.0
-
 # Not supported by inkscape
 >=media-gfx/imagemagick-7.0.0

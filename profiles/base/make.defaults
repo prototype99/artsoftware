@@ -6,6 +6,7 @@ USE="
 anacron arping
 -bindist
 caps clang consolekit cpudetection cryptsetup cvs
+dav1d
 evdev
 fuse
 git gpg graphite
