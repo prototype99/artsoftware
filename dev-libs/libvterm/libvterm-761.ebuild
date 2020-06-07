@@ -2,13 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-inherit eutils flag-o-matic multilib bzr
+inherit eutils flag-o-matic multilib
 
 DESCRIPTION="An abstract library implementation of a VT220/xterm/ECMA-48 terminal emulator"
 HOMEPAGE="http://www.leonerd.org.uk/code/libvterm/"
-# SRC_URI="https://dev.gentoo.org/~tranquility/distfiles/${P}.tar.gz"
-EBZR_REPO_URI="https://launchpad.net/libvterm"
-EBZR_REVISION=761
+SRC_URI="https://bazaar.launchpad.net/~libvterm/libvterm/trunk/tarball/761 -> ${PN}-761.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -20,7 +18,7 @@ DEPEND="
 
 RDEPEND="!dev-libs/libvterm-neovim"
 
-# S=${WORKDIR}/libvterm-0.0
+S=${WORKDIR}/~libvterm/libvterm/trunk
 
 src_compile() {
 	append-cflags -fPIC

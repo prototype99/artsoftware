@@ -3,13 +3,11 @@
 
 EAPI=6
 
-inherit eutils flag-o-matic multilib bzr
+inherit eutils flag-o-matic multilib
 
 DESCRIPTION="A GTK/Pango-based terminal that uses libvterm to provide terminal emulation"
 HOMEPAGE="http://www.leonerd.org.uk/code/pangoterm/"
-# SRC_URI="https://dev.gentoo.org/~tranquility/distfiles/${P}.tar.gz"
-EBZR_REPO_URI="https://launchpad.net/pangoterm"
-EBZR_REVISION=614
+SRC_URI="https://bazaar.launchpad.net/~leonerd/pangoterm/trunk/tarball/614 -> ${PN}-614.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -29,7 +27,7 @@ PATCHES=(
 	"${FILESDIR}/${P}-fix_gtkwindow.patch"
 )
 
-# S=${WORKDIR}/pangoterm-0
+S=${WORKDIR}/~leonerd/pangoterm/trunk/
 
 src_install() {
 	emake PREFIX="/usr" DESTDIR="${D}" install
