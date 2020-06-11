@@ -44,6 +44,9 @@ net-wireless/gnuradio python_single_target_python2_7
 net-wireless/gr-osmosdr python_single_target_python2_7
 x11-misc/zim python_single_target_python2_7
 
+# python3
+media-gfx/inkscape python_single_target_python3_8
+
 # qt5
 app-crypt/pinentry -qt4
 dev-qt/qtmultimedia widgets
