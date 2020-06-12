@@ -37,21 +37,22 @@ dev-libs/libnatspec python_single_target_python2_7
 dev-util/boost-build python_single_target_python2_7
 dev-util/perf python_single_target_python2_7
 media-gfx/gimp python_single_target_python2_7
-media-libs/alsa-lib python_single_target_python2_7 -python_single_target_python3_6 -python_single_target_python3_8
+media-libs/alsa-lib python_single_target_python2_7 -python_single_target_python3_6
 media-sound/lilypond python_single_target_python2_7
 net-analyzer/nmap python_single_target_python2_7
-net-wireless/gnuradio python_single_target_python2_7
 net-wireless/gr-osmosdr python_single_target_python2_7
 x11-misc/zim python_single_target_python2_7
 
 # python3
 media-gfx/inkscape python_single_target_python3_8
+media-gfx/graphviz python_single_target_python3_8
 
 # qt5
 app-crypt/pinentry -qt4
 dev-qt/qtmultimedia widgets
 net-p2p/transmission -qt5
 dev-python/PyQt5 sql
+dev-qt/qtwebkit -multimedia
 
 # rtlsdr
 net-wireless/gqrx -pulseaudio

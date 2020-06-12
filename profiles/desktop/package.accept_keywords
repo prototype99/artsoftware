@@ -13,3 +13,5 @@ net-libs/mbedtls -~amd64
 # Lilypond does not work with unstable versions
 dev-scheme/guile -~amd64
 
+
+app-text/discount -~amd64
