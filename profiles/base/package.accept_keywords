@@ -1,6 +1,7 @@
 # Things that need to stay stable
 app-shells/bash -~amd64
 dev-vcs/git -~amd64
+dev-vcs/subversion -~amd64
 media-gfx/exiv2 -~amd64
 media-libs/fontconfig -~amd64
 sys-devel/binutils -~amd64
