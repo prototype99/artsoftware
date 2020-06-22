@@ -3,3 +3,6 @@ sys-apps/systemd
 
 # Current kernel: LTS
 >=sys-kernel/gentoo-sources-5.5
+
+# bug in find_unstowed_path ?
+=app-admin/stow-2.3.1
