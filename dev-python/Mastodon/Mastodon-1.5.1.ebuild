@@ -8,17 +8,11 @@ PYTHON_COMPAT=( python3_4 python3_5 python3_6 )
 
 inherit distutils-r1
 
-DESCRIPTION="A CLI, Mastodon-inspired arborescent text utility"
-HOMEPAGE="http://git.art-software.fr/electron/localtoot"
+DESCRIPTION="Python wrapper for the Mastodon API"
+HOMEPAGE="https://pypi.python.org/pypi/Mastodon.py"
 
-if [[ ${PV} == "9999" ]] ; then
-	EGIT_REPO_URI="http://git.art-software.fr/electron/${PN}.git"
-	inherit git-r3
-	SRC_URI=""
-else
-	SRC_URI="http://git.art-software.fr/electron/${PN}/archive/v${PV}.tar.gz"
-	S="${WORKDIR}/${PN}"
-fi
+SRC_URI="https://files.pythonhosted.org/packages/0b/cf/7db7cd302c747f2f10a6037a220f6a72ac3a3c15862aee4ea8d7c64a2645/Mastodon.py-${PV}.tar.gz"
+S="${WORKDIR}/${PN}.py-${PV}"
 KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-3"
@@ -26,8 +20,11 @@ SLOT="0"
 IUSE=""
 
 RDEPEND="
-	>=dev-python/colored-1.3.5
-	>=dev-python/enigma-0.1.3
+	dev-python/decorator
+	dev-python/six
+	dev-python/pytz
+	dev-python/requests
+	dev-python/python-dateutil
 "
 DEPEND="
 	${RDEPEND}
