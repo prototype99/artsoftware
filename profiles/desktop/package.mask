@@ -1,9 +1,3 @@
-# Crashes at runtime
-=x11-misc/zim-0.66
-
-# New layout, broke wiki tree
->=x11-misc/zim-0.70_rc1
-
 # Mastodon is not updated for this yet
 >=dev-libs/protobuf-3.6.0
 

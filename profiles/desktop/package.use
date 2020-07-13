@@ -12,13 +12,10 @@ media-sound/pulseaudio gnome
 net-analyzer/wireshark -gtk
 net-misc/networkmanager-openvpn -gtk
 net-p2p/transmission -gtk
-virtual/notification-daemon -gnome
+virtual/notification-daemon -gnome -kde
 x11-misc/redshift -gtk
 dev-python/matplotlib -gtk2 -wxwidgets
 net-misc/spice-gtk gtk3 usbredir
-
-# Gentoo bug n°710718
-<dev-util/perf-5.5 -gtk
 
 # libreoffice
 app-office/libreoffice coinmp jemalloc pdfimport
@@ -27,7 +24,6 @@ app-office/libreoffice coinmp jemalloc pdfimport
 media-libs/libepoxy egl
 media-libs/mesa gles2 egl wayland
 dev-qt/qtgui:5 egl
-kde-frameworks/plasma egl
 kde-plasma/kinfocenter egl
 dev-qt/qtwayland egl
 
@@ -35,11 +31,9 @@ dev-qt/qtwayland egl
 app-office/dia python_single_target_python2_7
 dev-libs/libnatspec python_single_target_python2_7
 dev-util/boost-build python_single_target_python2_7
-dev-util/perf python_single_target_python2_7
 media-gfx/gimp python_single_target_python2_7
 media-sound/lilypond python_single_target_python2_7
 net-analyzer/nmap python_single_target_python2_7
-net-wireless/gr-osmosdr python_single_target_python2_7
 x11-misc/zim python_single_target_python2_7
 media-gfx/inkscape python_single_target_python2_7
 
@@ -55,13 +49,6 @@ net-p2p/transmission -qt5
 dev-python/PyQt5 sql
 dev-qt/qtwebkit -multimedia
 
-# rtlsdr
-net-wireless/gqrx -pulseaudio
-
-# No plasma-pa
-kde-plasma/plasma-desktop -pulseaudio
-kde-plasma/plasma-meta -pulseaudio
-
 # Gentoo bug #650258
 media-libs/mlt -ruby
 
@@ -69,7 +56,7 @@ media-libs/mlt -ruby
 media-gfx/feh curl
 
 # ipython can't use matplotlib in py3-only mode, so we nuke its integration
-dev-python/ipython -matplotlib
+dev-python/ipython -matplotlib -qt5
 
 # virt
 app-emulation/libvirt virt-network libssh
@@ -79,12 +66,10 @@ app-emulation/qemu spice usbredir virtfs numa
 # gpg / pgp
 mail-client/neomutt pgp-classic
 
-# Firefox
-www-client/firefox -clang eme-free hwaccel
-
 # chromium
 net-libs/nodejs inspector
 
 net-misc/networkmanager -elogind
 
 x11-libs/gtk+:2 -cups
+
