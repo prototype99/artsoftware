@@ -42,5 +42,3 @@ app-arch/xz-utils static-libs
 # python3
 dev-python/pygobject -python_targets_python2_7
 dev-db/postgresql python_single_target_python3_6
-dev-util/glib-utils python_single_target_python3_6
-sys-devel/clang python_single_target_python3_6
