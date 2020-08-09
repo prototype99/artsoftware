@@ -38,7 +38,6 @@ x11-misc/zim python_single_target_python2_7
 media-gfx/inkscape python_single_target_python2_7
 
 # python3
-app-text/calibre python_single_target_python3_6
 media-video/obs-studio python_single_target_python3_6
 media-libs/openimageio python_single_target_python3_6
 
