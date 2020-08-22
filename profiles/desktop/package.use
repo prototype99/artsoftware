@@ -45,7 +45,7 @@ media-libs/openimageio python_single_target_python3_6
 app-crypt/pinentry -qt4
 dev-qt/qtmultimedia widgets
 net-p2p/transmission -qt5
-dev-python/PyQt5 sql
+dev-python/PyQt5 sql declarative
 dev-qt/qtwebkit -multimedia
 
 # Gentoo bug #650258
