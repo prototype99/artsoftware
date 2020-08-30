@@ -40,6 +40,7 @@ media-gfx/inkscape python_single_target_python2_7
 # python3
 media-video/obs-studio python_single_target_python3_6
 media-libs/openimageio python_single_target_python3_6
+app-office/libreoffice-bin python_single_target_python3_7
 
 # qt5
 app-crypt/pinentry -qt4
