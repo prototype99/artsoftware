@@ -73,3 +73,5 @@ net-misc/networkmanager -elogind
 
 x11-libs/gtk+:2 -cups
 
+# latex
+app-text/texlive context extra graphics science
