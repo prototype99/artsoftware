@@ -17,7 +17,7 @@ ladspa lame lapack lastfm -ldap legacy-systray libass libinput libkms libmpv lib
 markdown -marble math matplotlib matroska mdnsresponder-compat melt messages midi minizip mod -modemmanager modplug moodbar mtp multilib multimedia
 networking networkmanager ntfs ntox
 openal openexr openimageio opus osc overlays
-phonon plotutils portaudio portmidi postproc postscript pulseaudio
+phonon plotutils portaudio portmidi portsmf postproc postscript pulseaudio
 qml qt5
 raw rtlsdr rubberband ruby
 s3tc savedconfig sbsms session sndfile soxr system-cairo system-jpeg system-libevent system-libvpx
