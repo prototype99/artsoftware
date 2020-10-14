@@ -6,7 +6,7 @@ USE="
 anacron arping
 -bindist
 caps clang consolekit cpudetection cryptsetup cvs
-dav1d
+dav1d dhcpcd
 evdev
 fuse
 git gpg graphite
@@ -22,6 +22,7 @@ secure-delete smp split-usr sqlite ssh subversion suid sync-plugin-portage syslo
 threads -tinfo tracepath -traceroute tracepath
 udev unicode utempter utils uuid
 vim vim-pager vim-syntax
+zstd
 "
 
 #################################################################################
