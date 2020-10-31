@@ -7,7 +7,7 @@ anacron arping
 -bindist
 caps clang consolekit cpudetection cryptsetup cvs
 dav1d dhcpcd
-evdev
+elogind evdev
 fuse
 git gpg graphite
 http2
