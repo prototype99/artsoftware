@@ -6,7 +6,6 @@ x11-themes/qtcurve -~amd64
 dev-util/glib-utils -~amd64
 dev-libs/glib -~amd64
 net-libs/glib-networking -~amd64
-media-gfx/inkscape -~amd64
 
 # Fails with obs-studio 24.0.5
 net-libs/mbedtls -~amd64
