@@ -73,3 +73,12 @@ x11-libs/gtk+:2 -cups
 
 # latex
 app-text/texlive context extra graphics science
+
+# wine
+app-emulation/wine-staging opencl osmesa -abi_x86_32
+dev-lang/orc abi_x86_32
+media-libs/graphene abi_x86_32
+media-libs/gst-plugins-base abi_x86_32
+media-libs/gstreamer abi_x86_32
+media-libs/libsdl2 haptic
+media-libs/mesa osmesa
