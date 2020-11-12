@@ -6,7 +6,7 @@ inherit eutils flag-o-matic multilib
 
 DESCRIPTION="An abstract library implementation of a VT220/xterm/ECMA-48 terminal emulator"
 HOMEPAGE="http://www.leonerd.org.uk/code/libvterm/"
-SRC_URI="https://bazaar.launchpad.net/~libvterm/libvterm/trunk/tarball/767 -> ${PN}-767.tar.gz"
+SRC_URI="https://bazaar.launchpad.net/~libvterm/libvterm/trunk/tarball/770 -> ${PN}-770.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
