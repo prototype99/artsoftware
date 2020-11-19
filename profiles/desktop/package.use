@@ -82,3 +82,4 @@ media-libs/gst-plugins-base abi_x86_32
 media-libs/gstreamer abi_x86_32
 media-libs/libsdl2 haptic
 media-libs/mesa osmesa
+sys-libs/zlib static-libs
