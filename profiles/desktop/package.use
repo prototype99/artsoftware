@@ -83,3 +83,5 @@ media-libs/gstreamer abi_x86_32
 media-libs/libsdl2 haptic
 media-libs/mesa osmesa
 sys-libs/zlib static-libs
+
+media-fonts/terminus-font -a-like-o center-tilde dinstinct-l otf pcf pcf-unicode-only  psf -quote -ru-dv -ru-g -ru-i -ru-k
