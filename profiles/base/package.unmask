@@ -1,2 +1,6 @@
 # mozilla ca
 dev-perl/Mozilla-CA
+
+# pangoterm IS maintained, you just have to look at the right place ffs
+x11-terms/pangoterm
+dev-libs/libvterm
