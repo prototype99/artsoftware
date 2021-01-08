@@ -14,3 +14,5 @@ net-libs/mbedtls -~amd64
 dev-scheme/guile -~amd64
 
 app-text/discount -~amd64
+
+media-gfx/inkscape -~amd64
