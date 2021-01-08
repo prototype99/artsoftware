@@ -29,3 +29,4 @@ sys-devel/clang-runtime -~amd64
 # Gentoo bug #722100
 dev-libs/boost -~amd64
 dev-util/boost-build -~amd64
+net-libs/serf -~amd64
