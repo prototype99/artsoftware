@@ -39,9 +39,6 @@ x11-misc/zim python_single_target_python2_7
 # python3
 media-video/obs-studio python_single_target_python3_7
 app-office/libreoffice-bin python_single_target_python3_7
-dev-python/netaddr -python_targets_python3_6
-app-admin/ansible -python_targets_python3_6
-app-admin/ansible-base -python_targets_python3_6
 
 # qt5
 app-crypt/pinentry -qt4

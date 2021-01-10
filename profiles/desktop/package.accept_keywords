@@ -16,3 +16,5 @@ dev-scheme/guile -~amd64
 app-text/discount -~amd64
 
 media-gfx/inkscape -~amd64
+
+media-libs/openimageio -~amd64
