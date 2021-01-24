@@ -6,7 +6,7 @@ USE="
 alsa amr amrenc ao autoipd
 bazaar bittorrent -bluetooth
 cdio celt cups custom-modes cycles
-dbus designer dia dri3 drm dssi dvb
+dbus dia dri3 drm dssi dvb
 ebook epub -egl
 faac fdk ffmpeg fftw flac fluidsynth fontconfig frei0r
 gegl -gles2 gnome-keyring gnuplot gphoto2 graphviz grc gsm gstreamer gtk gtk2 -gtk3
