@@ -1,7 +1,6 @@
 # Things that need to stay stable
 dev-util/android-tools -~amd64
 media-sound/clementine -~amd64
-x11-base/xorg-server -~amd64
 x11-themes/qtcurve -~amd64
 dev-util/glib-utils -~amd64
 dev-libs/glib -~amd64
