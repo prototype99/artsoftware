@@ -45,7 +45,7 @@ app-crypt/pinentry -qt4
 dev-qt/qtmultimedia widgets
 net-p2p/transmission -qt5
 dev-python/PyQt5 sql declarative
-dev-qt/qtwebkit -multimedia
+x11-themes/qtcurve kde
 
 # Gentoo bug #650258
 media-libs/mlt -ruby
