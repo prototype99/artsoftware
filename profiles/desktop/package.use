@@ -88,3 +88,4 @@ media-fonts/terminus-font -a-like-o center-tilde distinct-l otf pcf pcf-unicode-
 
 # no kdelibs. temporary, will remove the offending dep
 x11-plugins/cairo-dock-plugins -kde
+dev-libs/libdbusmenu gtk3
