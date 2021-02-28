@@ -5,12 +5,9 @@ EAPI="6"
 
 inherit cmake-utils eutils versionator
 
-MY_PN="${PN}-core"
-MM_PV=$(get_version_component_range '1-2')
-
 DESCRIPTION="Cairo-dock is a fast, responsive, Mac OS X-like dock."
 HOMEPAGE="http://www.glx-dock.org"
-SRC_URI="http://launchpad.net/${MY_PN}/${MM_PV}/${PV}/+download/${P}.tar.gz"
+SRC_URI="https://github.com/Cairo-Dock/${PN}-core/releases/download/${PV}/${PN}-${PV}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"

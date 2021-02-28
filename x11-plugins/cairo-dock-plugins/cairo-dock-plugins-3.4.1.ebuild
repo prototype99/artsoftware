@@ -6,12 +6,9 @@ EAPI="6"
 
 inherit cmake-utils eutils versionator
 
-MY_PN="${PN/plugins/plug-ins}"
-MM_PV=$(get_version_component_range '1-2')
-
 DESCRIPTION="Official plugins for cairo-dock"
 HOMEPAGE="http://www.glx-dock.org"
-SRC_URI="http://launchpad.net/${MY_PN}/${MM_PV}/${PV}/+download/${MY_PN}-${PV}.tar.gz"
+SRC_URI="https://github.com/Cairo-Dock/${PN/plugins/plug-ins}/releases/download/${PV}/${PN/plugins/plug-ins}-${PV}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
